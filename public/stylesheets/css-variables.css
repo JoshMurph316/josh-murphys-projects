@@ -31,3 +31,16 @@ body {
 input {
     width: 100px;
 }
+
+.home-btn {
+    color: var(--base);
+    font-size: 1.2em;
+    padding: 10px;
+    background-color: inherit;
+    text-decoration: none;
+}
+
+.home-btn:hover {
+    color: #211F1F;
+    text-decoration: none;
+}

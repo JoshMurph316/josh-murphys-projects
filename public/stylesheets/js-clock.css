@@ -1,5 +1,5 @@
 html {
-    background: #D6CFBD url(./images/money2.jpg);
+    background: #D6CFBD url(/images/js-clock/money2.jpg);
     background-size: cover;
     font-family: 'helvetica neue';
     text-align: center;
@@ -24,6 +24,7 @@ body {
     color: grey;
     font-size: 2em;
     font-family: 'Permanent Marker', cursive;
+    text-decoration: none;
 }
 
 .time-money {

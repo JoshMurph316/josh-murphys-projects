@@ -117,3 +117,14 @@ body {
     flex: 5;
     font-size: 40px;
 }
+
+.home-btn {
+    color: #D00501;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+.home-btn:hover {
+    color: #211F1F;
+    text-decoration: none;
+}

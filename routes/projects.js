@@ -9,6 +9,9 @@ router.get('/city-search', function(req, res, next) {
 router.get('/array-work', function(req, res, next) {
     res.render('array-work');
 });
+router.get('/array-work2', function(req, res, next) {
+    res.render('array-work2');
+});
 router.get('/css-variables', function(req, res, next) {
     res.render('css-variables');
 });
