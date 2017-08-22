@@ -1,0 +1,24 @@
+html,
+body {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.header-container {
+    background-color: #5B8897;
+    color: #fff;
+}
+
+.home-btn {
+    font-size: 1.5em;
+    color: #fff;
+    text-decoration: none;
+}
+
+.home-btn:hover {
+    text-decoration: none;
+    color: #293033
+}
