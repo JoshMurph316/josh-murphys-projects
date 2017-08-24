@@ -1,8 +1,6 @@
-var endpoint = 'https://en.wikipedia.org/wiki/Special:Random';
-
 var entry = document.getElementById('search').value;
-
 var submit = document.getElementById('submit');
+var endpoint = "http://api.openweathermap.org/data/2.5/forecast?id=524901&APPID=df712972cb4ab5fa9eca2a9e04c2511d";
 
 function getWiki() {
     var http = new XMLHttpRequest();
@@ -18,4 +16,12 @@ function getWiki() {
     http.send();
 };
 
-submit.addEventListener('click', getWiki);
+// jQuery method
+function getWiki2() {
+
+    $.get("http://api.openweathermap.org/data/2.5/forecast?id=524901&APPID=df712972cb4ab5fa9eca2a9e04c2511d", function(data) {
+        console.log(data);
+    });
+};
+
+submit.addEventListener('click', getWiki2);
